@@ -1,0 +1,26 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+        int edad;
+        String correo;
+        
+         System.out.print("Ingrese su nombre: ");
+         String nombre = sc.nextLine();
+         System.out.println("Su nombre es:" + nombre+ "  ");
+         System.out.println("Ingrese su correo: ");
+         correo = sc.nextLine();
+         System.out.println("su correo es: " + correo+ " "); 
+         System.out.println("Ingrese su edad:");
+         edad = sc.nextInt();
+         System.out.print("Su edad es de:"+ edad + " ");
+         
+         
+         
+         
+         
+          
+    }
+}
