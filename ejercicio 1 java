@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        double numeroUno;
+        double numeroDos;
+        double suma;
+        double resta;
+        double multiplicacion;
+        double modulo;
+        
+        
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Ingresa un numero: "); 
+        numeroUno = sc.nextDouble();
+        
+        System.out.print("Ingresa un numero: "); 
+        numeroDos = sc.nextDouble();
+        
+        suma = numeroUno+numeroDos;
+        resta = numeroUno-numeroDos;
+        multiplicacion= numeroUno*numeroDos;
+        modulo= numeroUno%numeroDos;
+                System.out.println(" la suma es: "  + suma +"  ");
+                System.out.println( " la resta es : " + resta+ " ");
+                System.out.println(" la multiplicacion es : " + multiplicacion + " ");
+                System.out.println("el modulo  es:" + modulo+ "%");
+                
+       
